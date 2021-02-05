@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: #000;
+    font-family: Montserrat, sans-serif;
+}
+.container{
+    color: #fff;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin: 345px;
+}
+.container span{
+    text-transform: uppercase;
+}
+.text1{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 8px;
+    animation: text 3s 1;
+}
+.text2{
+    font-size: 14px;
+    font-weight: 700;
+    color: greenyellow;
+    animation: text 3s 1;
+}
+@keyframes text{
+    0%{
+        letter-spacing: 25px;
+        font-size: 100px;
+    }
+}
